@@ -3,8 +3,8 @@ package co.com.example;
 public class ClassTestPerson {
     public static void main(String[] args) {
         ClassPerson person1 = new ClassPerson();
-        person1.name = "Jacobo";
-        person1.surname = "Garces";
+        person1.firstName = "Jacobo";
+        person1.lastName = "Garces";
         person1.displayInformation();
 
         ClassPerson person2 = new ClassPerson();
@@ -13,8 +13,8 @@ public class ClassTestPerson {
         System.out.println("person2 = " + person2);
 
         person2.displayInformation();
-        person2.name = "Mariana";
-        person2.surname = "Usuga";
+        person2.firstName = "Mariana";
+        person2.lastName = "Usuga";
         person2.displayInformation();
     }
 }

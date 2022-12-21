@@ -2,11 +2,11 @@ package co.com.example;
 
 public class ClassPerson {
     //Class attributes
-    String name;
-    String surname;
+    String firstName;
+    String lastName;
 
     public void displayInformation(){
-        System.out.println("Name: " + name);
-        System.out.println("Surname: " + surname);
+        System.out.println("First name: " + firstName);
+        System.out.println("Last name: " + lastName);
     }
 }
